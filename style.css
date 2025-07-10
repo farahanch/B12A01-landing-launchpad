@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV */
+
+nav {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 151px;
+    margin: 10px auto;
+    padding: 50px 0;
+    
+}
+
+nav h1 {
+    color: rgb(78, 71, 255);
+    font-size: 34px;
+    font-weight: 900;
+}
+
+nav button {
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
