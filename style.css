@@ -357,5 +357,51 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+/* FOOTER SECTION START */
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-logo {
+  color: #4E47FF;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  color: #4E47FF;
+  transition: color 0.3s ease;
+}
+/* FOOTER SECTION END */
 
 
