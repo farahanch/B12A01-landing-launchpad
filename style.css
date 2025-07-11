@@ -1,32 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-/* NAV */
+/* BANNER+NAV STARTING */
+button{
+  background-color: #4E47FF;
+  border: none;
+  border-radius: 10px;
+}
 
-nav {
-    border: 1px solid red;
+#sign-up{
+  width: 132px;
+  height: 48px;
+  color: white;
+}
+
+#stay-focused{
+  width: 174px;
+  height: 48px;
+  color: white;
+  margin-top: 7px;
+}
+
+.banner-section{
+  background-image: url('Assets/Hero-bg.png' );
+  margin-bottom: 200px;
+}
+
+.banner-nav{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px auto;
+  color: #4E47FF;
+  font-weight: bold;
+
+}
+
+
+  .cool {
     display: flex;
-    justify-content: space-between;
-    max-width: 1140px;
-    height: 151px;
-    margin: 10px auto;
-    padding: 50px 0;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px; /* or whatever height you prefer */
+    color: #252432;
+    font-weight: bold;
+}
+.cool h1 {
+    margin-bottom: 20px;
 }
 
-nav h1 {
-    color: rgb(78, 71, 255);
-    font-size: 34px;
-    font-weight: 900;
-}
+/* BANNER+NAV ENDING */
 
-nav button {
-    width: 132px;
-    height: 48px;
-    background-color: #4E47FF;
-    border-radius: 10px;
-    border: none;
-    color: white;
-}
+/* ACTION STARTING */
+
