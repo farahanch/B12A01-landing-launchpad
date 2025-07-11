@@ -1,34 +1,35 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 /* BANNER+NAV STARTING */
-button{
+button {
   background-color: #4E47FF;
   border: none;
   border-radius: 10px;
 }
 
-#sign-up{
+#sign-up {
   width: 132px;
   height: 48px;
   color: white;
 }
 
-#stay-focused{
+#stay-focused {
   width: 174px;
   height: 48px;
   color: white;
   margin-top: 7px;
 }
 
-.banner-section{
-  background-image: url('Assets/Hero-bg.png' );
+.banner-section {
+  background-image: url('Assets/Hero-bg.png');
   margin-bottom: 200px;
+  max-width: auto;
 }
 
-.banner-nav{
+.banner-nav {
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
@@ -39,21 +40,70 @@ button{
 }
 
 
-  .cool {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 400px; /* or whatever height you prefer */
-    color: #252432;
-    font-weight: bold;
+.cool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  /* or whatever height you prefer */
+  color: #252432;
+  font-weight: bold;
 }
+
 .cool h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* BANNER+NAV ENDING */
 
 /* ACTION STARTING */
 
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 116px;
+}
+
+#LLP {
+  width: 229px;
+  height: 48px;
+  background-color: #4E47FF;
+  color: white;
+  margin-bottom: 200px;
+}
+
+p {
+  color: #252432;
+  margin-bottom: 17px;
+  width: 517px;
+  height: 49px;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+h1 {
+  color: #252432;
+  width: 517px;
+  height: 70px;
+  padding-bottom: 60px;
+}
+
+#explore {
+  color: rgba(37, 36, 50, 0.5);
+  
+}
+
+.action-section {
+  max-width: 1140px;
+
+}
+
+.right-section {
+  border-radius: 48px;
+  width: 403px;
+  height: 328px;
+}
+
+/* ACTION ENDING */
