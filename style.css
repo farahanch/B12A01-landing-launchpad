@@ -92,7 +92,7 @@ h1 {
 
 #explore {
   color: rgba(37, 36, 50, 0.5);
-  
+
 }
 
 .action-section {
@@ -107,3 +107,48 @@ h1 {
 }
 
 /* ACTION ENDING */
+
+/* USER STARTING */
+
+.user-section {
+  background-color: #EAEAFF;
+  border-radius: 20px;
+  padding: 60px 40px;
+  max-width: 1140px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+
+.user-section h2 {
+  color: #252432;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.user-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.user h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.user p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Raleway', sans-serif;
+}
+
+/* USER ENDING */
