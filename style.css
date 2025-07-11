@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/* BANNER+NAV STARTING */
+/* banner start */
 button {
   background-color: #4E47FF;
   border: none;
@@ -61,9 +61,9 @@ button:hover {
   margin-bottom: 20px;
 }
 
-/* BANNER+NAV ENDING */
+/* banner end */
 
-/* ACTION STARTING */
+/* action start */
 
 header {
   display: flex;
@@ -111,55 +111,44 @@ h1 {
   height: 328px;
 }
 
-/* ACTION ENDING */
+/* action end */
 
-/* USER STARTING */
+/* user start */
 
-.user-section {
-  background-color: #EAEAFF;
-  border-radius: 20px;
-  padding: 60px 40px;
-  max-width: 1140px;
-  margin: 0 auto 100px;
-  text-align: center;
-  margin-bottom: 137px;
+#productive {
+    background-color: #dedef1;
+    margin: 4% 6%;
+    padding: 2% 3%;
+    text-align: center;
+    border-radius: 20px;
 }
 
-.user-section h2 {
-  color: #252432;
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 50px;
-  font-family: 'Raleway', sans-serif;
+#big-text-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
 }
 
-.user-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-  max-width: 1140px;
-  margin: 0 auto;
+.counter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.user h3 {
-  font-size: 48px;
-  font-weight: bold;
-  color: #4E47FF;
-  margin-bottom: 10px;
-  font-family: 'Raleway', sans-serif;
+.counter-box h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    margin: 0;
 }
 
-.user p {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
-  font-family: 'Raleway', sans-serif;
+.counter-box p {
+    margin: 0;
+    text-align: center;
 }
 
-/* USER ENDING */
+/* user end */
 
-/* REVIEW SECTION START */
+/* review start */
 
 .review-section {
   max-width: 1140px;
@@ -237,9 +226,9 @@ h1 {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* REVIEW SECTION END */
+/* review end */
 
-/* READY SECTION START */
+/* ready start */
 .ready-section {
   padding: 100px 20px;
   margin-bottom: 92px;
@@ -284,9 +273,9 @@ h1 {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-/* READY SECTION START */
+/* ready end */
 
-/* CONTACT SECTION START */
+/* contact start */
 
 .contact-section {
   background-color: #F7F8FE;
@@ -357,7 +346,9 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-/* FOOTER SECTION START */
+/* contact end */
+
+/* footer start */
 .footer-container {
   max-width: 1140px;
   margin: 0 auto;
@@ -402,6 +393,6 @@ h1 {
   color: #4E47FF;
   transition: color 0.3s ease;
 }
-/* FOOTER SECTION END */
+/* footer end */
 
 
